@@ -1,2 +1,2 @@
 # Athena-RAP
-Store Athena Queries used in the rAP project
+Store Athena Queries used in the RAP project
