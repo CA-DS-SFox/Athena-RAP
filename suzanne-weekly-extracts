@@ -1,8 +1,8 @@
-/* CREATE TABLE ctas_week_to_date
+CREATE TABLE ctas_week_to_date
 WITH (
       format = 'Parquet',
       write_compression = 'SNAPPY')
-AS */
+AS
 SELECT
     SUBSTR(initiationtimestamp,1, 10) as when_date,
     SUBSTR(initiationtimestamp, 12, 5) as when_time,
