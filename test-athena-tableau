@@ -1,4 +1,4 @@
-CREATE TABLE ctas_interim_call_legs_v1
+CREATE TABLE ctas_test_athena
 WITH (
       format = 'Parquet',
       write_compression = 'SNAPPY')
